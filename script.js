@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("breakdownForm");
-  const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzeWyeOhEpkre4LTRhjStv3Q5PDtxDJpqiFYVgtpaF52YXuj-OgYgXkjeMIuBjSMtbanA/exec"; // Replace with your Apps Script URL
+  const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxnyjRvwANxOhr7f3dE9je6sdOvRbxWoCYn-a15EVHnk5zGjNVkb-dBKFtbB2qSsjse-Q/exec"; // Replace with your Apps Script URL
 
   const previewImage = (inputEl, previewId) => {
     const container = document.getElementById(previewId);
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
     try {
       const res = await fetch(WEB_APP_URL, {
         method: "POST",
-        headers: { "Content-Type": "Text/plain" },
+        headers: { "Content-Type": "text/plain" },
         body: JSON.stringify(formData)
       });
       const data = await res.json();
@@ -102,4 +102,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
 
