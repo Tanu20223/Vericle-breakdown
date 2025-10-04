@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("breakdownForm");
-  const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbyN2IH4kNc_5gicFZIrEucall9FfQ6WsZYYJ-NoS2sur_fW1bAAmjwzItOP7V-HwWpstw/exec"; // Replace with your Apps Script URL
+  const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzeWyeOhEpkre4LTRhjStv3Q5PDtxDJpqiFYVgtpaF52YXuj-OgYgXkjeMIuBjSMtbanA/exec"; // Replace with your Apps Script URL
 
   const previewImage = (inputEl, previewId) => {
     const container = document.getElementById(previewId);
@@ -102,3 +102,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
